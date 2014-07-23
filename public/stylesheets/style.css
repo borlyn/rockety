@@ -1,3 +1,4 @@
+/**comman style for all pages of the app**/
 
 html {
   height: 100%;
@@ -12,33 +13,28 @@ body {
   height: calc(100% - 20px);
 }
 
-section#chatroom {
-  height: -moz-calc(100% - 80px);
-  height: -webkit-calc(100% - 80px);
-  height: calc(100% - 80px);
-  background-color: #EFFFEC;
-}
 
-div#messages {
-  height: -moz-calc(100% - 35px);
-  height: -webkit-calc(100% - 35px);
-  height: calc(100% - 35px);
-}
-
-input#message {
-  width: -moz-calc(100% - 80px);
-  width: -webkit-calc(100% - 80px);
-  width: calc(100% - 80px);
-}
-
-input#send {
-  width: 74px;
-}
 
 header {
-  background-color:#4192C1;
-  text-align: right;
-  margin-top: 15px;
+  background-color: #5BB75B;
+  background-image: linear-gradient(to bottom, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0,
+0.25);
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset,
+0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 14px;
+
+  text-decoration: none;
+  text-align: center;
+ 
 }
 
 header h1 {
@@ -50,64 +46,21 @@ header h1 {
 
 footer {
   padding: 6px;
-  background-color: #4192C1;
+  background-color: #5BB75B;
   color: #FFFFFF;
   bottom: 0;
   position: absolute;
   width: 100%;
+  line-height: 24px;
+  background-image: linear-gradient(to bottom, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0,
+0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-width: 1px;
   margin: 0px;
-  margin-bottom: 10px;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
-}
-
-a {
-  color: #00B7FF;
-}
-
-.modal {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	height: -moz-calc(100% - 102px);
-	height: -webkit-calc(100% - 102px);
-	height: calc(100% - 102px);
-	left: 0;
-	position: absolute;
-	top: 62px;
-	width: 100%;
-	z-index: 1000;
-}
-
-.backdrop {
-	width: 100%;
-	height: 100%;
-	/*background-color:;*/
-}
-
-.popup {
-	position: absolute;
-	height: 100px;
-	width: 300px;
-	left: -moz-calc(50% - 150px);
-	left: -moz-calc(50% - 150px);
-	left: calc(50% - 150px);
-	top: -moz-calc(50% - 50px);
-	top: -webkit-calc(50% - 50px);
-	top: calc(50% - 50px);
-	background: #FFFFFF;
-}
-
-.pophead {
-	background-color: #4192C1;
-	color: #FFFFFF;
-	font-weight: bold;
-	padding: 8px 3px;
-	vertical-align: middle;
-}
-
-.popbody {
-	padding: 10px 5px;
-        background-color: #777777;
 }
